@@ -130,7 +130,9 @@ export default function HomePage() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="#download"
+                href="https://apps.apple.com/us/app/pastevite/id6759858988"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Download PasteVite on the App Store"
                 className="flex items-center gap-3 px-6 py-3.5 rounded-2xl bg-white text-gray-900 font-semibold hover:bg-white/90 transition-all shadow-xl shadow-white/10 group"
               >
@@ -370,7 +372,7 @@ export default function HomePage() {
               PasteVite. Download free on the App Store.
             </p>
             <a
-              href="https://apps.apple.com"
+              href="https://apps.apple.com/us/app/pastevite/id6759858988"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Download PasteVite on the App Store"

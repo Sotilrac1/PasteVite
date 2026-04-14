@@ -59,12 +59,15 @@ export default function Header() {
           >
             Download
           </Link>
-          <Link
-            href="/#download"
+          <a
+            href="https://apps.apple.com/us/app/pastevite/id6759858988"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 text-sm font-medium rounded-xl bg-gradient-to-r from-indigo-500 to-violet-600 text-white hover:opacity-90 transition-opacity shadow-lg shadow-indigo-500/25"
+            aria-label="Get PasteVite on the App Store"
           >
             Get the App
-          </Link>
+          </a>
         </nav>
 
         {/* Mobile menu button */}
@@ -116,13 +119,16 @@ export default function Header() {
           >
             Download
           </Link>
-          <Link
-            href="/#download"
+          <a
+            href="https://apps.apple.com/us/app/pastevite/id6759858988"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={handleCloseMenu}
             className="px-4 py-2.5 text-sm font-medium rounded-xl bg-gradient-to-r from-indigo-500 to-violet-600 text-white text-center hover:opacity-90 transition-opacity"
+            aria-label="Get PasteVite on the App Store"
           >
             Get the App
-          </Link>
+          </a>
         </nav>
       )}
     </header>
